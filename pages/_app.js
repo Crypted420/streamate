@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import '../styles/globals.css'
-import { ContextProvider } from './components/SocketContext'
+import { ContextProvider } from '../components/SocketContext'
 
 function MyApp({ Component, pageProps }) {
 

@@ -19,7 +19,7 @@ const ContextProvider = ({ children }) => {
   const connectionRef = useRef();
 
   useEffect(() => {
-    socket.connect('https://real-galvanized-tachometer.glitch.me');
+    socket.connect('https://real-galvanized-tachometer.glitch.mer');
 
     return () => {
       socket.disconnect()

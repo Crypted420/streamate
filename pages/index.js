@@ -1,15 +1,14 @@
-import Head from "next/head";
+
 import { FaVideo } from "react-icons/fa";
 import { MdCallEnd, MdAddCall, MdVideoCall } from "react-icons/md";
 import { BsGearWideConnected } from "react-icons/bs";
 import styled from "styled-components";
-import { motion } from "framer-motion";
-import { useRef, useState, useEffect, useContext } from "react";
-import { SnackbarProvider, enqueueSnackbar } from "notistack";
-import Settings from "./components/Settings";
-import MakeCall from "./components/MakeCall";
-import { ContextProvider, SocketContext } from "./components/SocketContext";
-import Notification from "./components/Notification";
+import { useRef, useState, useContext } from "react";
+import { SnackbarProvider, } from "notistack";
+import Settings from "../components/Settings";
+import MakeCall from "../components/MakeCall";
+import { SocketContext } from "../components/SocketContext";
+import Notification from "../components/Notification";
 
 export default function Home() {
   const {
