@@ -163,6 +163,7 @@ const Header = styled.header`
   justify-content: space-between;
   @media screen and (max-width: 1023px) {
     padding-right: 0px;
+    padding-bottom:1rem;
   }
   .logo--container {
     display: flex;
@@ -256,6 +257,7 @@ const VideoScreen = styled.section`
   margin-top: 1rem;
   @media screen and (max-width: 1023px) {
     width: 100%;
+    margin-top: 0.5rem;
   }
   video {
     object-fit: cover;
