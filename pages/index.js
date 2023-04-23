@@ -164,7 +164,8 @@ const Header = styled.header`
   @media screen and (max-width: 1023px) {
     padding-right: 0px;
     padding-bottom:1rem;
-    padding-top: 0%.1rem;
+    padding-top: 0.1rem;
+    height: 8%;
   }
   .logo--container {
     display: flex;
