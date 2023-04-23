@@ -164,6 +164,7 @@ const Header = styled.header`
   @media screen and (max-width: 1023px) {
     padding-right: 0px;
     padding-bottom:1rem;
+    padding-top: 0%.1rem;
   }
   .logo--container {
     display: flex;
@@ -228,6 +229,9 @@ const ConnectedUsers = styled.section`
     background-color: whitesmoke;
     border-radius: 10px;
     position: relative;
+    @media screen and (max-width: 1023px){
+      height: 12rem;
+    }
     .tag {
       padding: 0.2rem 0.6rem;
       background-color: transparent;
